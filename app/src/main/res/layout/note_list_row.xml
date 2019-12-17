@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingBottom="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="1dp"
+    android:background="#9bc2cf"
+>
+
+
+    <ImageView
+        android:id="@+id/iv_star"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_star"/>
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_star"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timestamp"
+        android:layout_toRightOf="@id/iv_star"
+        android:textColor="#242424"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timestamp"
+        android:layout_toRightOf="@id/start"
+        android:text=">>"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timestamp"
+        android:layout_toRightOf="@id/arrow"
+        android:textColor="#242424"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_toLeftOf="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_search"/>
+    <TextView
+        android:id="@+id/delete"
+        android:text="x"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:lineSpacingExtra="0dp"
+        android:textSize="30sp" />
+<!--delete 추가 필요-->
+</RelativeLayout>
