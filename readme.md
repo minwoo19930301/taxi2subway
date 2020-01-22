@@ -10,5 +10,6 @@
 1. spinners for checking the start location and end location
   - used SQLite to connect DB
 2. compared Tmap API for taxi time, ODSay API for subway time
+  - used HTTPThread
 3. show results by map path
 4. added history and favorites UI
