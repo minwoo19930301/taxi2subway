@@ -9,6 +9,6 @@
 # <logic> : 
 1. spinners for checking the start location and end location
   - used SQLite to connect DB
-1. compared Tmap API for taxi time, ODSay API for subway time
-1. show results by map path
-1. added history and favorites UI
+2. compared Tmap API for taxi time, ODSay API for subway time
+3. show results by map path
+4. added history and favorites UI
